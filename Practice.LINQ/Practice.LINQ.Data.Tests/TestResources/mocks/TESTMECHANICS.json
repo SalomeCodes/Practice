@@ -1,0 +1,132 @@
+[
+  {
+    "Id": 1,
+    "Name": "Leonardo",
+    "Age": 39,
+    "Email": "lalder0@cisco.com",
+    "Salary": 3277,
+    "Hours": 24,
+    "MakesAbleToRepair": [
+      { "Make": "Mazda" },
+      { "Make": "Plymouth" }
+    ]
+  },
+  {
+    "Id": 2,
+    "Name": "Alexis",
+    "Age": 50,
+    "Email": "ajoost1@bbb.org",
+    "Salary": 1884,
+    "Hours": 42,
+    "MakesAbleToRepair": [
+      { "Make": "Buick" },
+      { "Make": "Ford" },
+      { "Make": "Volkswagen" },
+      { "Make": "BMW" },
+      { "Make": "Chevrolet" }
+    ]
+  },
+  {
+    "Id": 3,
+    "Name": "Vitoria",
+    "Age": 31,
+    "Email": "vcadwaladr2@chicagotribune.com",
+    "Salary": 1779,
+    "Hours": 39,
+    "MakesAbleToRepair": [
+      { "Make": "Suzuki" },
+      { "Make": "Kia" },
+      { "Make": "BMW" },
+      { "Make": "Audi" },
+      { "Make": "Mercedes-Benz" }
+    ]
+  },
+  {
+    "Id": 4,
+    "Name": "Corby",
+    "Age": 30,
+    "Email": "cbroadis3@economist.com",
+    "Salary": 1005,
+    "Hours": 48,
+    "MakesAbleToRepair": [ { "Make": "Porsche" } ]
+  },
+  {
+    "Id": 5,
+    "Name": "Durand",
+    "Age": 53,
+    "Email": "dlyte4@tumblr.com",
+    "Salary": 2128,
+    "Hours": 31,
+    "MakesAbleToRepair": [
+      { "Make": "Isuzu" },
+      { "Make": "Volvo" },
+      { "Make": "Ford" }
+    ]
+  },
+  {
+    "Id": 6,
+    "Name": "Lisabeth",
+    "Age": 34,
+    "Email": "lbrantl5@webs.com",
+    "Salary": 3163,
+    "Hours": 37,
+    "MakesAbleToRepair": [
+      { "Make": "Mitsubishi" },
+      { "Make": "Chevrolet" },
+      { "Make": "Buick" },
+      { "Make": "Suzuki" },
+      { "Make": "Nissan" }
+    ]
+  },
+  {
+    "Id": 7,
+    "Name": "Lyssa",
+    "Age": 34,
+    "Email": "lkinzel6@pinterest.com",
+    "Salary": 2484,
+    "Hours": 37,
+    "MakesAbleToRepair": [
+      { "Make": "Honda" },
+      { "Make": "Audi" }
+    ]
+  },
+  {
+    "Id": 8,
+    "Name": "Becka",
+    "Age": 60,
+    "Email": "bwanless7@vimeo.com",
+    "Salary": 1378,
+    "Hours": 24,
+    "MakesAbleToRepair": [
+      { "Make": "Cadillac" },
+      { "Make": "Pontiac" },
+      { "Make": "Chevrolet" }
+    ]
+  },
+  {
+    "Id": 9,
+    "Name": "Gerald",
+    "Age": 43,
+    "Email": "ghamlet8@a8.net",
+    "Salary": 2550,
+    "Hours": 47,
+    "MakesAbleToRepair": [
+      { "Make": "Porsche" },
+      { "Make": "Hyundai" },
+      { "Make": "GMC" }
+    ]
+  },
+  {
+    "Id": 10,
+    "Name": "Ivan",
+    "Age": 43,
+    "Email": "iclarage9@slashdot.org",
+    "Salary": 3151,
+    "Hours": 24,
+    "MakesAbleToRepair": [
+      { "Make": "Honda" },
+      { "Make": "Ford" },
+      { "Make": "Maserati" }
+    ]
+  }
+]
