@@ -59,6 +59,74 @@ namespace Practice.LINQ.Practice
         }
 
         /// <summary>
+        /// Find all mechanics sort them by their name CBA.
+        /// If they have the same name they have to be sorted by their salary low to high
+        /// </summary>
+        [Fact]
+        public void FindAllMechanics_SortByNameABC_IfSameName_SortBySalaryLowToHigh()
+        {
+            //Arrange
+            List<Mechanic> mechanics = _service.GetMechanics();
+
+            //Act
+            List<Mechanic> result = new List<Mechanic>();
+
+            //Assert
+            Assert.Collection(result,
+                mechanic =>
+                {
+                    Assert.Equal(2, mechanic.Id);
+                    Assert.Equal("Alexis", mechanic.Name);
+                },
+                mechanic =>
+                {
+                    Assert.Equal(8, mechanic.Id);
+                    Assert.Equal("Becka", mechanic.Name);
+                },
+                mechanic =>
+                {
+                    Assert.Equal(4, mechanic.Id);
+                    Assert.Equal("Corby", mechanic.Name);
+                },
+                mechanic =>
+                {
+                    Assert.Equal(5, mechanic.Id);
+                    Assert.Equal("Durand", mechanic.Name);
+                },
+                mechanic =>
+                {
+                    Assert.Equal(9, mechanic.Id);
+                    Assert.Equal("Gerald", mechanic.Name);
+                },
+                mechanic =>
+                {
+                    Assert.Equal(10, mechanic.Id);
+                    Assert.Equal("Ivan", mechanic.Name);
+                },
+                mechanic =>
+                {
+                    Assert.Equal(1, mechanic.Id);
+                    Assert.Equal("Leonardo", mechanic.Name);
+                },
+                mechanic =>
+                {
+                    Assert.Equal(7, mechanic.Id);
+                    Assert.Equal("Lisabeth", mechanic.Name);
+                },
+                mechanic =>
+                {
+                    Assert.Equal(6, mechanic.Id);
+                    Assert.Equal("Lisabeth", mechanic.Name);
+                },
+                mechanic =>
+                {
+                    Assert.Equal(3, mechanic.Id);
+                    Assert.Equal("Vitoria", mechanic.Name);
+                }
+            );
+        }
+
+        /// <summary>
         /// Find all the mechanics that can repair a ford with extension methods.
         /// </summary>
         [Fact]
