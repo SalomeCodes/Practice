@@ -3,21 +3,25 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29709.97
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Practice.LINQ.Tests", "Practice.LINQ.Data.Tests\Practice.LINQ.Tests.csproj", "{0E114A3F-4D23-402E-9739-CA3D8874126A}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Practice.LINQ.FileStore", "Practice.LINQ.FileStore\Practice.LINQ.FileStore.csproj", "{6E2F626D-9227-44A9-8A9A-600987EFC806}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "99. Tests", "99. Tests", "{C011BB79-4E55-4F91-92AA-C70751E4BA15}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "00. FileStore", "00. FileStore", "{3AD77D24-1ECE-4725-A0DD-822049223DEB}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "80.Data", "80.Data", "{9C39A191-AD7D-4374-8C60-2A0CDD78D9C6}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "80. Data", "80. Data", "{9C39A191-AD7D-4374-8C60-2A0CDD78D9C6}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "00.Models", "00.Models", "{75478C76-9501-4A2F-8C1A-6B3CC62C3B7A}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "00. Models", "00. Models", "{75478C76-9501-4A2F-8C1A-6B3CC62C3B7A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Practice.LINQ.Models", "Practice.LINQ.Models\Practice.LINQ.Models.csproj", "{616A945E-10BE-485E-B969-7ACCB6532E4C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Practice.LINQ.Models", "Practice.LINQ.Models\Practice.LINQ.Models.csproj", "{616A945E-10BE-485E-B969-7ACCB6532E4C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Practice.LINQ.Data", "Practice.LINQ.Data\Practice.LINQ.Data.csproj", "{0CE73B2C-1BBB-4F47-8F7F-3264BF478CDD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Practice.LINQ.Data", "Practice.LINQ.Data\Practice.LINQ.Data.csproj", "{0CE73B2C-1BBB-4F47-8F7F-3264BF478CDD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "70. Practice", "70. Practice", "{D7D7F925-2119-4CAF-B19C-F017A6BAFE28}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Practice.LINQ.Practice", "Practice.LINQ.Practice\Practice.LINQ.Practice.csproj", "{E83F3892-9CCB-493A-AE10-00315FF4B5CA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Practice.LINQ.Tests", "Practice.LINQ.Tests\Practice.LINQ.Tests.csproj", "{F2AF60BC-5853-4C86-8F9D-97002DCF539F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -25,10 +29,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{0E114A3F-4D23-402E-9739-CA3D8874126A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{0E114A3F-4D23-402E-9739-CA3D8874126A}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{0E114A3F-4D23-402E-9739-CA3D8874126A}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{0E114A3F-4D23-402E-9739-CA3D8874126A}.Release|Any CPU.Build.0 = Release|Any CPU
 		{6E2F626D-9227-44A9-8A9A-600987EFC806}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{6E2F626D-9227-44A9-8A9A-600987EFC806}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6E2F626D-9227-44A9-8A9A-600987EFC806}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -41,15 +41,24 @@ Global
 		{0CE73B2C-1BBB-4F47-8F7F-3264BF478CDD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0CE73B2C-1BBB-4F47-8F7F-3264BF478CDD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0CE73B2C-1BBB-4F47-8F7F-3264BF478CDD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E83F3892-9CCB-493A-AE10-00315FF4B5CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E83F3892-9CCB-493A-AE10-00315FF4B5CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E83F3892-9CCB-493A-AE10-00315FF4B5CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E83F3892-9CCB-493A-AE10-00315FF4B5CA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F2AF60BC-5853-4C86-8F9D-97002DCF539F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2AF60BC-5853-4C86-8F9D-97002DCF539F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2AF60BC-5853-4C86-8F9D-97002DCF539F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2AF60BC-5853-4C86-8F9D-97002DCF539F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{0E114A3F-4D23-402E-9739-CA3D8874126A} = {C011BB79-4E55-4F91-92AA-C70751E4BA15}
 		{6E2F626D-9227-44A9-8A9A-600987EFC806} = {3AD77D24-1ECE-4725-A0DD-822049223DEB}
 		{616A945E-10BE-485E-B969-7ACCB6532E4C} = {75478C76-9501-4A2F-8C1A-6B3CC62C3B7A}
 		{0CE73B2C-1BBB-4F47-8F7F-3264BF478CDD} = {9C39A191-AD7D-4374-8C60-2A0CDD78D9C6}
+		{E83F3892-9CCB-493A-AE10-00315FF4B5CA} = {D7D7F925-2119-4CAF-B19C-F017A6BAFE28}
+		{F2AF60BC-5853-4C86-8F9D-97002DCF539F} = {C011BB79-4E55-4F91-92AA-C70751E4BA15}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {8928BAE3-D306-42A9-AA56-29B6158B80C6}
